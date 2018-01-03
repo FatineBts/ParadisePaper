@@ -22,7 +22,26 @@
 #define WIDTH 950
 #define HEIGHT 550
 
-/*
+int quizz ()
+
+{
+    SDL_Window *win1=NULL;
+    SDL_Renderer *renderer1=NULL;
+    SDL_Texture *img1=NULL;
+    
+    Ecran ecran; //a initialiser avec la bonne image
+    Ecran(win1,renderer1,img1,550,950,"Paradise Paper","/Users/fatine/Desktop/jubia.jpg");
+    Affiche solo;
+    solo.Init(&ecran); // on crée la page de joueur solo
+    
+    Ecran ecran2; // il faut initialiser avec la bonne image
+    Affiche multi;
+    multi.Init(&ecran2); // on crée la page multi joueur
+    
+    Ecran ecran3; // a initialiser
+    Affiche contrelamontre;
+    contrelamontre.Init(&ecran3); //on cree la page contre la montre
+    
  SDL_Window *win = NULL; // crée la fenetre
  SDL_Renderer *renderer = NULL;
  bool quit = false; // tant qu'on décide de ne pas quitter
@@ -48,7 +67,7 @@
  {
  
     // event handling
-    SDL_Event e;
+     SDL_Event e;
     SDL_WaitEvent(&e);
  
     switch (e.type)
@@ -64,6 +83,40 @@
                 case SDLK_ESCAPE:
                 break;
             }
+            
+        case SDL_KEYDOWN:
+            switch (e.key.keysym.sym)
+        {
+            case SDLK_ESCAPE: /* Appui sur la touche Echap, on arrête le programme */
+                quit= true;
+                break;
+                
+            case SDLK_1: // si il appuie sur 1 -> on fait du solo
+                std::cout << "1" << std::endl;
+                solo.Init(&ecran);
+                //puis une fonction qui passe d'une question à une autre
+                break;
+                
+            case SDLK_2: // si il appuie sur 2 -> on fait du solo
+                std::cout << "2" << std::endl;
+                multi.Init(&ecran2);
+                break;
+            
+            case SDLK_3: // si il appuie sur 3 -> on fait du contre la montre
+                std::cout << "3" << std::endl;
+                multi.Init(&ecran2);
+                break;
+                
+            case SDLK_RIGHT: // si on appuie sur la flèche de droite, on passe à la question suivante
+                std::cout << "droite" << std::endl;
+                break;
+                
+            case SDLK_LEFT: // si on appuie sur la flèche de gauche, on passe à la question précédente
+                std::cout << "gauche" << std::endl;
+                break;
+                
+        }
+            break;
  
     }
  
@@ -83,15 +136,21 @@
  SDL_DestroyTexture(img);
  SDL_DestroyRenderer(renderer);
  SDL_DestroyWindow(win);
- 
- */
+
+    return 0;
+}
 
 
 
-int quizz()
+int quizz1()
 {
 
     Ecran ecran; //appel de fonction écran
+    SDL_Window *win=NULL;
+    SDL_Renderer *renderer=NULL;
+    SDL_Texture *img=NULL;
+    
+    Ecran(win,renderer,img,550,950,"Paradise Paper",IMG_PATH);
     
     Affiche premiere_page; //appel de fonction affiche
     
@@ -165,8 +224,10 @@ int quizz()
 
 int main(int argc, char **argv)
 {
+    
     std::cout <<"toto"<< std::endl;
-    //quizz();
+    quizz();
+    //quizz1();
     return 0;
     
 }
