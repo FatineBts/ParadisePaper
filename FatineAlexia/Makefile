@@ -1,6 +1,6 @@
 CC=g++ -g
-CCFLAGS= -Wall -Werror -std=c++11 -lSDL2
-LIBFLAGS=
+CCFLAGS= -Wall -Werror -std=c++11 
+LIBFLAGS= -lSDL2 -lSDL2_image
 SRC= $(wildcard *.cpp)
 OBJ= $(SRC:.cpp=.o)
 EXEC= ParadisePaper
