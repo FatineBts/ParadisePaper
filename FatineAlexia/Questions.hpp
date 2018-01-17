@@ -5,7 +5,7 @@
 #include <string>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_events.h>
-#include "SDL2_image/SDL_image.h"
+#include <SDL2/SDL_image.h> //contenu dans la bibliothèque SDL2
 
 /*
  La classe question va permettre de: 
