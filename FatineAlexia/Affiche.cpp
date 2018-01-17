@@ -1,5 +1,5 @@
 #include "Affiche.hpp"
-#define IMG_PATH "~/FatineAlexia/IMG/paradise.jpeg"
+#define IMG_PATH "users/cao/brejon/FatineAlexia/IMG/paradise.jpeg"
 
 Affiche::Affiche():Ecran(){}
 

@@ -1,6 +1,6 @@
 CC=g++ -g
-CCFLAGS= -Wall -Werror -std=c++11 -lSDL2
-LIBFLAGS=
+CCFLAGS= -Wall -Werror -std=c++11
+LIBFLAGS= -lSDL2 -lSDL2_image
 SRC= $(wildcard *.cpp)
 OBJ= $(SRC:.cpp=.o)
 EXEC= ParadisePaper
@@ -10,7 +10,7 @@ all: $(EXEC)
 $(EXEC): $(OBJ)
 		$(CC) $^ -o $@	$(LIBFLAGS)
 
-%.o: %.cc
+%.o: %.cpp
 		$(CC) $(CCFLAGS) -o $@ -c $<
 
 .depends:

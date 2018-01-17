@@ -14,7 +14,7 @@
 #include "Score.hpp"
 #include "Detail.hpp"
 
-#define IMG_PATH "~/FatineAlexia/IMG/paradise.jpeg"
+#define IMG_PATH "users/cao/brejon/FatineAlexia/IMG/paradise.jpeg"
 #define WIDTH 935
 #define HEIGHT 520
 
@@ -42,9 +42,9 @@ int quizz ()
     SDL_Renderer *renderer = NULL;
     SDL_Texture *img = NULL; // pour l'image
     
-    Ecran ecran(win,renderer,img,935,520,"Paradise Paper","~/FatineAlexia/IMG/paradise.jpeg");
+    Ecran ecran(win,renderer,img,935,520,"Paradise Paper","users/cao/brejon/FatineAlexia/IMG/paradise.jpeg");
     
-    Affiche premiere_image(win,renderer,img,935,520,"Paradise Paper","~/FatineAlexia/IMG/paradise.jpeg");
+    Affiche premiere_image(win,renderer,img,935,520,"Paradise Paper","users/cao/brejon/FatineAlexia/IMG/paradise.jpeg");
    
     int w=ecran.get_l();
     int h=ecran.get_h();
