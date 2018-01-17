@@ -10,36 +10,36 @@ void Reponses::mise_a_jour(){_num_reponse=0;}
 
 void Reponses::initialisation() //initialisation des réponses associées aux questions
 {
-    _liste_rep[0]="users/cao/brejon/FatineAlexia/IMG/r1.jpg";
-    _liste_rep[1]="users/cao/brejon/FatineAlexia/IMG/r2.jpg";
-    _liste_rep[2]="users/cao/brejon/FatineAlexia/IMG/r3.jpg";
-    _liste_rep[3]="users/cao/brejon/FatineAlexia/IMG/r4.jpg";
-    _liste_rep[4]="users/cao/brejon/FatineAlexia/IMG/r5.jpg";
-    _liste_rep[5]="users/cao/brejon/FatineAlexia/IMG/r6.jpg";
-    _liste_rep[6]="users/cao/brejon/FatineAlexia/IMG/r7.jpg";
-    _liste_rep[7]="users/cao/brejon/FatineAlexia/IMG/r8.jpg";
-    _liste_rep[8]="users/cao/brejon/FatineAlexia/IMG/r9.jpg";
-    _liste_rep[9]="users/cao/brejon/FatineAlexia/IMG/r10.jpg";
-    _liste_rep[11]="users/cao/brejon/FatineAlexia/IMG/r11.jpg";
-    _liste_rep[12]="users/cao/brejon/FatineAlexia/IMG/r12.jpg";
-    _liste_rep[13]="users/cao/brejon/FatineAlexia/IMG/r13.jpg";
-    _liste_rep[14]="users/cao/brejon/FatineAlexia/IMG/r14.jpg";
-    _liste_rep[15]="users/cao/brejon/FatineAlexia/IMG/r15.jpg";
-    _liste_rep[16]="users/cao/brejon/FatineAlexia/IMG/r16.jpg";
-    _liste_rep[17]="users/cao/brejon/FatineAlexia/IMG/r17.jpg";
-    _liste_rep[18]="users/cao/brejon/FatineAlexia/IMG/r18.jpg";
-    _liste_rep[19]="users/cao/brejon/FatineAlexia/IMG/r19.jpg";
-    _liste_rep[20]="users/cao/brejon/FatineAlexia/IMG/r20.jpg";
-    _liste_rep[21]="users/cao/brejon/FatineAlexia/IMG/r21.jpg";
-    _liste_rep[22]="users/cao/brejon/FatineAlexia/IMG/r22.jpg";
-    _liste_rep[23]="users/cao/brejon/FatineAlexia/IMG/r23.jpg";
-    _liste_rep[24]="users/cao/brejon/FatineAlexia/IMG/r24.jpg";
-    _liste_rep[25]="users/cao/brejon/FatineAlexia/IMG/r25.jpg";
-    _liste_rep[26]="users/cao/brejon/FatineAlexia/IMG/r26.jpg";
-    _liste_rep[27]="users/cao/brejon/FatineAlexia/IMG/r27.jpg";
-    _liste_rep[28]="users/cao/brejon/FatineAlexia/IMG/r28.jpg";
-    _liste_rep[29]="users/cao/brejon/FatineAlexia/IMG/r29.jpg";
-    _liste_rep[30]="users/cao/brejon/FatineAlexia/IMG/r30.jpg";
+    _liste_rep[0]="/users/cao/brejon/FatineAlexia/IMG/r1.jpg";
+    _liste_rep[1]="/users/cao/brejon/FatineAlexia/IMG/r2.jpg";
+    _liste_rep[2]="/users/cao/brejon/FatineAlexia/IMG/r3.jpg";
+    _liste_rep[3]="/users/cao/brejon/FatineAlexia/IMG/r4.jpg";
+    _liste_rep[4]="/users/cao/brejon/FatineAlexia/IMG/r5.jpg";
+    _liste_rep[5]="/users/cao/brejon/FatineAlexia/IMG/r6.jpg";
+    _liste_rep[6]="/users/cao/brejon/FatineAlexia/IMG/r7.jpg";
+    _liste_rep[7]="/users/cao/brejon/FatineAlexia/IMG/r8.jpg";
+    _liste_rep[8]="/users/cao/brejon/FatineAlexia/IMG/r9.jpg";
+    _liste_rep[9]="/users/cao/brejon/FatineAlexia/IMG/r10.jpg";
+    _liste_rep[11]="/users/cao/brejon/FatineAlexia/IMG/r11.jpg";
+    _liste_rep[12]="/users/cao/brejon/FatineAlexia/IMG/r12.jpg";
+    _liste_rep[13]="/users/cao/brejon/FatineAlexia/IMG/r13.jpg";
+    _liste_rep[14]="/users/cao/brejon/FatineAlexia/IMG/r14.jpg";
+    _liste_rep[15]="/users/cao/brejon/FatineAlexia/IMG/r15.jpg";
+    _liste_rep[16]="/users/cao/brejon/FatineAlexia/IMG/r16.jpg";
+    _liste_rep[17]="/users/cao/brejon/FatineAlexia/IMG/r17.jpg";
+    _liste_rep[18]="/users/cao/brejon/FatineAlexia/IMG/r18.jpg";
+    _liste_rep[19]="/users/cao/brejon/FatineAlexia/IMG/r19.jpg";
+    _liste_rep[20]="/users/cao/brejon/FatineAlexia/IMG/r20.jpg";
+    _liste_rep[21]="/users/cao/brejon/FatineAlexia/IMG/r21.jpg";
+    _liste_rep[22]="/users/cao/brejon/FatineAlexia/IMG/r22.jpg";
+    _liste_rep[23]="/users/cao/brejon/FatineAlexia/IMG/r23.jpg";
+    _liste_rep[24]="/users/cao/brejon/FatineAlexia/IMG/r24.jpg";
+    _liste_rep[25]="/users/cao/brejon/FatineAlexia/IMG/r25.jpg";
+    _liste_rep[26]="/users/cao/brejon/FatineAlexia/IMG/r26.jpg";
+    _liste_rep[27]="/users/cao/brejon/FatineAlexia/IMG/r27.jpg";
+    _liste_rep[28]="/users/cao/brejon/FatineAlexia/IMG/r28.jpg";
+    _liste_rep[29]="/users/cao/brejon/FatineAlexia/IMG/r29.jpg";
+    _liste_rep[30]="/users/cao/brejon/FatineAlexia/IMG/r30.jpg";
     
     
 }

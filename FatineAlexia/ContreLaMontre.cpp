@@ -5,7 +5,7 @@ ContreLaMontre::ContreLaMontre(){}
 
 void ContreLaMontre::initialisation() // va initialiser les pages propres à contre la montre notamment la page d'accueil
 {
-    _page.push_back("users/cao/brejon/FatineAlexia/IMG/contrelamontre.jpg");
+    _page.push_back("/users/cao/brejon/FatineAlexia/IMG/contrelamontre.jpg");
     
 }
 

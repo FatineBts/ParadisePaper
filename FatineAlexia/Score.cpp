@@ -28,17 +28,17 @@ Score::Score(Reponses r){ _r=r;}
 void Score::initialisation() //va contenir les chargements d'images des différents scores possibles
 {
     
-    _images[0]= "users/cao/brejon/FatineAlexia/IMG/0.jpg"; //pour le score de zeros
-    _images[1]= "users/cao/brejon/FatineAlexia/IMG/1.jpg";
-    _images[2]= "users/cao/brejon/FatineAlexia/IMG/2.jpg";
-    _images[3]= "users/cao/brejon/FatineAlexia/IMG/3.jpg";
-    _images[4]= "users/cao/brejon/FatineAlexia/IMG/4.jpg";
-    _images[5]= "users/cao/brejon/FatineAlexia/IMG/5.jpg";
-    _images[6]= "users/cao/brejon/FatineAlexia/IMG/6.jpg";
-    _images[7]= "users/cao/brejon/FatineAlexia/IMG/7.jpg";
-    _images[8]= "users/cao/brejon/FatineAlexia/IMG/8.jpg";
-    _images[9]= "users/cao/brejon/FatineAlexia/IMG/9.jpg";
-    _images[10]= "users/cao/brejon/FatineAlexia/IMG/10.jpg";
+    _images[0]= "/users/cao/brejon/FatineAlexia/IMG/0.jpg"; //pour le score de zeros
+    _images[1]= "/users/cao/brejon/FatineAlexia/IMG/1.jpg";
+    _images[2]= "/users/cao/brejon/FatineAlexia/IMG/2.jpg";
+    _images[3]= "/users/cao/brejon/FatineAlexia/IMG/3.jpg";
+    _images[4]= "/users/cao/brejon/FatineAlexia/IMG/4.jpg";
+    _images[5]= "/users/cao/brejon/FatineAlexia/IMG/5.jpg";
+    _images[6]= "/users/cao/brejon/FatineAlexia/IMG/6.jpg";
+    _images[7]= "/users/cao/brejon/FatineAlexia/IMG/7.jpg";
+    _images[8]= "/users/cao/brejon/FatineAlexia/IMG/8.jpg";
+    _images[9]= "/users/cao/brejon/FatineAlexia/IMG/9.jpg";
+    _images[10]= "/users/cao/brejon/FatineAlexia/IMG/10.jpg";
     
 }
 

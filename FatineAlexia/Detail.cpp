@@ -24,20 +24,20 @@ void Detail::mise_a_jour()
 }
 void Detail::initialisation() //mettre ici les chemins 
 {    
-    _detail[0]="users/cao/brejon/FatineAlexia/IMG/d1.jpg";
-    _detail[1]="users/cao/brejon/FatineAlexia/IMG/d2.jpg";
-    _detail[2]="users/cao/brejon/FatineAlexia/IMG/d3.jpg";
-    _detail[4]="users/cao/brejon/FatineAlexia/IMG/d5.jpg";
-    _detail[6]="users/cao/brejon/FatineAlexia/IMG/d7.jpg";
-    _detail[8]="users/cao/brejon/FatineAlexia/IMG/d9.jpg";
-    _detail[9]="users/cao/brejon/FatineAlexia/IMG/d10.jpg";
+    _detail[0]="/users/cao/brejon/FatineAlexia/IMG/d1.jpg";
+    _detail[1]="/users/cao/brejon/FatineAlexia/IMG/d2.jpg";
+    _detail[2]="/users/cao/brejon/FatineAlexia/IMG/d3.jpg";
+    _detail[4]="/users/cao/brejon/FatineAlexia/IMG/d5.jpg";
+    _detail[6]="/users/cao/brejon/FatineAlexia/IMG/d7.jpg";
+    _detail[8]="/users/cao/brejon/FatineAlexia/IMG/d9.jpg";
+    _detail[9]="/users/cao/brejon/FatineAlexia/IMG/d10.jpg";
     
-    _detail[11]="users/cao/brejon/FatineAlexia/IMG/d11.jpg";
-    _detail[12]="users/cao/brejon/FatineAlexia/IMG/d12.jpg";
-    _detail[14]="users/cao/brejon/FatineAlexia/IMG/d14.jpg";
-    _detail[18]="users/cao/brejon/FatineAlexia/IMG/d18.jpg";
-    _detail[20]="users/cao/brejon/FatineAlexia/IMG/d20.jpg";
-    _detail[22]="users/cao/brejon/FatineAlexia/IMG/d22.jpg";
+    _detail[11]="/users/cao/brejon/FatineAlexia/IMG/d11.jpg";
+    _detail[12]="/users/cao/brejon/FatineAlexia/IMG/d12.jpg";
+    _detail[14]="/users/cao/brejon/FatineAlexia/IMG/d14.jpg";
+    _detail[18]="/users/cao/brejon/FatineAlexia/IMG/d18.jpg";
+    _detail[20]="/users/cao/brejon/FatineAlexia/IMG/d20.jpg";
+    _detail[22]="/users/cao/brejon/FatineAlexia/IMG/d22.jpg";
     
 }
 
